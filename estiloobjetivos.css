@@ -1,0 +1,50 @@
+div.con-texto{
+	background-image: url("picks/fondo-objetivos.JPG");
+	border-radius: 20px;
+	width: 1220px;
+	height: 580px;
+	margin: 110px auto;
+
+	font-size: 20px;
+	color: black;
+
+	padding: 30px;
+
+
+
+
+}
+
+
+
+p.p-subtitulo{
+
+ padding-top: 15px;
+ margin-left: 30px;
+
+}
+
+
+p.p-texto{
+	text-align: justify;
+	margin-left: 15px;
+	
+	margin-right: 15px;
+
+}
+
+
+div.con-texto1{
+	font-style:italic;
+	font-weight:bold;/*negritas*/
+	position: absolute;
+	margin-left: 690px;
+	width: 535px;
+	height: 530px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 10px;
+	opacity:0.8;
+
+
+}

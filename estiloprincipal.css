@@ -1,0 +1,151 @@
+*{
+/*quitatr margenes o paging por defecto dependiendo el navegador*/
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+
+body{
+	background-image: -webkit-linear-gradient(left top, #05070D 39%, #4C84ED 74%);
+
+
+
+
+}
+
+header{
+
+	background-color: black;
+	width: auto;
+	height: 70px;
+
+
+}
+
+
+p.title-text{
+	font: oblique bold 120% cursive; 
+	margin-top: 5px;
+	margin-right: 15px;
+	float: right;
+	
+	color:#c2ef65;
+	font-size: 55px;
+	
+	
+
+}
+
+
+img.img-h{
+	margin-top: -52px;
+	width: 270px;
+	height: 120px;
+}
+
+
+
+nav{
+/*quitar el borde*/
+	
+position: absolute;
+margin: 40px 300px;
+
+	 /*se separa 50 px de top y auto se centra*/
+	width: 800px;
+	height: 50px;
+
+	/*background-color: red;*/
+
+}
+
+
+ul{
+	list-style: none;/*para quitar los puntos que indican que es un a lsita*/
+	width: 1000px;
+	height: 50px;
+}
+
+li{
+	float: left;
+	width: 200px;/*tamano de cada opcion */
+	height: 50px;
+	/*background-color: green;*/
+	overflow: hidden; /*lo que aparece fuera dela  area no se vea*/
+	margin-top: 0px;
+
+}
+
+div.contenedor_gen:hover{
+	margin-top:-50px; /*lo que esta al poner el maus se suba el contenedor*/
+}
+
+
+
+div.contenedor_gen{
+	width: 200px;
+	height: 100px;
+	/*background-color: yellow;*/
+
+	-webkit-transition:margin-top .2s;/*el cambio de paddign se tarde .2s*/
+
+
+}
+
+
+
+
+
+div.contenedor_1{
+	border-radius: 20px;
+	width: 200px;
+	height: 46px;
+	background-color: black;
+	overflow: hidden;
+	border-top: 2px solid #e5c9a5;
+	border-bottom: 3px solid #e5c9a5;
+	
+}
+
+
+div.contenedor_2{
+	border-radius: 20px;
+	width: 200px;
+	height: 46px;
+	background-color: #9c0509;
+	overflow: hidden;
+	border-top: 2px solid #e5c9a5;
+	border-bottom: 3px solid #e5c9a5;
+
+
+
+
+}
+
+
+
+p.texto1{
+
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	font-size: 25px;
+	
+
+
+}
+
+
+ p.texto2{
+
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	font-size: 25px;
+
+
+}
+
+

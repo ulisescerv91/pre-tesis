@@ -1,0 +1,42 @@
+div.div_datos{
+	border-radius: 20px;
+	width: 1020px;
+	height: 400px;
+	margin: 110px auto;
+	text-align: center;
+	font-size: 20px;
+	background-image: "picks/fondo_datos.JPG";
+	color: white
+
+
+
+
+}
+
+div.div_perfil{
+
+	margin-top: 30px;
+	float: right;
+
+	
+	width: 500px;
+	height: 200px;
+}
+
+
+
+
+img.img-perfil{
+	border-radius: 20px;
+	
+	width: 200px;
+	height: 150px;
+}
+
+img.img-fb{
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 60px;
+	height: 60px;
+
+}
